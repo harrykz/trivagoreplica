@@ -1,0 +1,454 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar Area */
+.trivnav li{
+    padding: 0px 15px 0px 15px !important;
+}
+
+.trivlinks{
+    color: #fff !important;
+    transition: 0.3s ease;
+}
+
+.trivlinks:hover{
+    color: #4b95de !important;
+}
+
+/* Main Background */
+.mainbackground{
+    background-image: url('../img/clemens-jezler-679450-unsplash-02.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.backgroundslight{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.worldintext{
+    font-family: 'Mansalva', cursive !important;
+    margin-top: 15px;
+}
+
+.worldintext, .maintext, .fa-plane-departure, .fa-calendar-alt, .fa-chess-rook{
+    color: #fff !important;
+}
+
+.centeringfontawesome{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.fa-plane-departure, .fa-calendar-alt, .fa-chess-rook{
+    font-size: 25px !important;
+}
+
+.mainanchorlink{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b95de;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    font-family: 'Mansalva', cursive !important;
+    transition: 0.5s ease-in;
+    border-radius: 5px;
+}
+
+.mainanchorlink:hover{
+    text-decoration: none;
+    color: #4b95de;
+    background: transparent;
+    border: 3px solid #4b95de;
+    border-radius: 5px;
+}
+
+.nexttripcontainer{
+    padding: 30px 0px 30px 0px;
+}
+
+/* Destination Grid */
+.boxdetails{
+    padding: 15px;
+}
+
+.bottommarg{
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 3px;
+}
+
+/* Not Sure Section */
+.longerphotos{
+    height: 300px;
+}
+
+.owlcarouselheading{
+    font-family: 'Mansalva', cursive;
+}
+
+.links{
+    color: blue;;
+}
+
+.justpadding{
+    padding: 10px;
+}
+
+.centeringthedestinationimg{
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 3px;
+}
+
+.testpara{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; 
+    font-family: 'Mansalva', cursive;
+}
+
+.blurbackgroundiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.blurbackgroundiv:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#imageOne{
+    background-image: url('../img/BingImageOfTheDay_20180101.jpg');
+}
+
+#imageTwo{
+    background-image: url('../img/BingImageOfTheDay_20180110.jpg');
+}
+
+#imageThree{
+    background-image: url('../img/BingImageOfTheDay_20180109.jpg');
+}
+
+#imageFour{
+    background-image: url('../img/BingImageOfTheDay_20180102.jpg');
+}
+
+#imageFive{
+    background-image: url('../img/BingImageOfTheDay_20180123.jpg');
+}
+
+#imageSix{
+    background-image: url('../img/BingImageOfTheDay_20180126.jpg');
+}
+
+#imageSeven{
+    background-image: url('../img/BingImageOfTheDay_20180124.jpg');
+}
+
+#imageEight{
+    background-image: url('../img/BingImageOfTheDay_20180125.jpg');
+}
+
+#imageNine{
+    background-image: url('../img/BingImageOfTheDay_20180131.jpg');
+}
+
+#imageOne, #imageTwo, #imageThree, #imageFour, #imageFive, #imageSix, #imageSeven, #imageEight, #imageNine{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+/* Cities Area */
+.citiesandlanguages{
+    padding: 50px 0px 0px 0px;
+}
+.citieslist{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.citiesname{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.citiesname:hover{
+    text-decoration: none;
+    color: #4b95de;
+}
+
+/* Footer Section */
+.footerdiv{
+    padding: 50px 0px 20px 0px;
+}
+.centeringnewsletterheading{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.recievenewsletter{
+    color: #fff;
+    margin-bottom: 0px !important;
+}
+
+.squaredcorner{
+    border-radius: 0px !important;
+}
+
+.afterborder{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #fff
+}
+
+.rowmarg{
+    margin: 40px 0px 20px 0px;
+}
+
+.centeringsocial{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.social{
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.social li{
+    display: inline-block;
+}
+
+.sociallinks{
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.fb{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px 8px 10px;
+}
+
+.sociallinks:hover{
+    text-decoration: none;
+    color: #4b95de;
+}
+
+#sel1{
+    background: transparent !important;
+}
+
+.form-control{
+    color: #000 !important;
+}
+
+.footerlinkss{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 100;
+}
+
+.footerlinkss:hover{
+    text-decoration: none;
+    color: #4b95de;
+}
+
+.footerlast{
+    padding: 30px 0px 20px 0px;
+}
+
+.copyrights{
+    color: #fff;
+}
+
+@media(min-width: 320px){
+    /* Navbar Area */
+    .trivlinks{
+        font-size: 16px;
+    }
+
+    .navbar-collapse{
+        justify-content: center;
+        align-items: center;
+    }
+    /* Main Background */
+    .backgroundslight{
+        padding: 50px 0px 50px 0px;
+    }
+    .worldintext{
+        font-size: 14px;
+    }
+
+    .mainanchorlink{
+        padding: 10px 30px 10px 30px;
+    }
+
+    .mainbackrows{
+        margin: 5px 0px 5px 0px;
+    }
+
+    .shortscreenmarg{
+        margin: 5px 0px 5px 0px;
+    }
+
+    /* Next Trip Area */
+    .nextripheading{
+        font-size: 18px;
+    }
+
+    .destinationheading{
+        font-family: 'Mansalva', cursive;
+        font-size: 20px;
+    }
+
+    .nextriptext{
+        font-size: 14px;
+    }
+
+    /* Destination Grid */
+    .boxdetailstext{
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .boxdetailsheading, .owlcarouselheading{
+        font-size: 18px;
+    }
+
+    /* Details Area */
+    .detailsheading{
+        font-size: 18px;
+    }
+
+    .detailstext{
+        font-size: 13px;
+    }
+
+    /* Footer Section */
+    .centeringsocial{
+        justify-content: center;
+    }
+    .social li{
+        margin: 0px 10px 0px 10px;
+    }
+}
+
+@media(min-width: 576px){
+    /* Details Area */
+    .detailsheading{
+        font-size: 18px;
+    }
+
+    .detailstext{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 768px){
+    /* Details Area */
+    .detailsheading{
+        font-size: 20px;
+    }
+
+    .detailstext{
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 992px){
+    /* Navbar Area */
+    .trivlinks{
+        font-size: 26px;
+    }
+
+    .navbar-collapse{
+        justify-content: center;
+    }
+    
+    /* Main Background */
+    .backgroundslight{
+        padding: 130px 0px 130px 0px;
+    }
+    .worldintext{
+        font-size: 18px;
+    }
+
+    .mainanchorlink{
+        padding: 0px 30px 0px 30px;
+    }
+
+    .mainbackrows{
+        margin: 15px 0px 10px 0px;
+    }
+
+    .shortscreenmarg{
+        margin: 0px 0px 0px 0px;
+    }
+
+    /* Next Trip Area */
+    .nextripheading{
+        font-size: 20px;
+    }
+
+    .destinationheading{
+        font-size: 30px;;
+    }
+
+    .boxdetailsheading, .owlcarouselheading{
+        font-size: 22px;
+    }
+
+    /* Details Area */
+    .detailsheading{
+        font-size: 24px;
+    }
+
+    .detailstext{
+        font-size: 15px;
+    }
+
+    /* Footer Section */
+    .centeringsocial{
+        justify-content: flex-start
+    }
+    .social li{
+        margin: 0px 15px 0px 15px;
+    }
+}
+
+@media(min-width: 1200px){
+
+}

@@ -1,0 +1,332 @@
+
+/* Side Images Area */
+.sideboxedimgs{
+    padding: 50px 0px 10px 0px;
+}
+.forboxshadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 5px;
+}
+
+.forboxshadow:hover{
+    cursor: pointer;
+}
+
+.contextforimages{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 15px;
+}
+
+.contextforimagestext{
+    font-family: 'Mansalva', cursive;
+    color: #fff;
+}
+
+.forafterborder:nth-child(3):after{
+    display: block;
+    position: absolute;
+    content: '';
+    border-right: 2px solid lightgray;
+    top: 0%;
+    height: 90%;
+}
+
+.bodyforcaption{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px
+}
+
+.captiontext{
+    font-family: 'Mansalva', cursive;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.placestovisit{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200 !important;
+}
+
+.forblockdisplay, .placestovisit{
+    display: inline-block;
+    padding: 15px
+}
+
+.theirsizes{
+    font-size: 25px;
+    color: red !important;
+}
+
+.carousel, .carousel-inner, .carousel-item{
+    height: 100%;
+}
+
+.fluidimgs{
+    width: 100%;
+    height: 100%;
+}
+
+#imageFirst, #imageSecond, #imageThird, #imageFourth, #imageFifth{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#imageFirst{
+    background-image: url('../img/BingImageOfTheDay_20180119.jpg');
+}
+
+#imageSecond{
+    background-image: url('../img/BingImageOfTheDay_20180123.jpg');
+}
+
+#imageThird{
+    background-image: url('../img/clemens-jezler-679450-unsplash-02.jpeg');
+}
+
+#imageFourth{
+    background-image: url('../img/BingImageOfTheDay_20180104.jpg');
+}
+
+#imageFifth{
+    background-image: url('../img/Landscape.jpg');
+}
+
+.thisslidertext{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Mansalva', cursive;
+}
+
+/* Curvature Pictures */
+.curvaturepictures{
+    padding: 30px 0px 30px 0;
+}
+
+.forinsidepadding{
+    padding: 15px;
+}
+
+.curvedpicbox{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 5px;
+}
+
+.curvedpicboxtwo, .curvedpicbox{
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29); 
+    transition: 0.3s ease;
+}
+
+.curvedpicboxtwo{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 50%;
+}
+
+.curvedpicbox:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.59); 
+}
+
+.curvedpicboxtwo:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.59); 
+}
+
+#curvedpiconzi, #curvedpictwozi, #curvedpicthreezi, #curvedpicfourzi, #curvedpicsixzi, #curvedpicsevenzi
+#curvedpiceightzi, #curvedpicninezi{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#curvedpiconzi{
+    background-image: url('../img/BingImageOfTheDay_20180103.jpg');
+}
+
+#curvedpictwozi{
+    background-image: url('../img/BingImageOfTheDay_20180117.jpg');
+}
+
+#curvedpicthreezi{
+    background-image: url('../img/BingImageOfTheDay_20180124.jpg');
+}
+
+#curvedpicfourzi{
+    background-image: url('../img/2019-ford-mustang-shelby-gt-s-109-1566231960.jpg');    
+}
+
+#curvedpicsixzi{
+    background-image: url('../img/BingImageOfTheDay_20180106.jpg');
+}
+
+#curvedpicsevenzi{
+    background-image: url('../img/68492760-superhero-wallpapers.jpg');
+}
+
+#curvedpiceightzi{
+    background-image: url('../img/BingImageOfTheDay_20180108.jpg');
+}
+
+#curvedpicninezi{
+    background-image: url('../img/BingImageOfTheDay_20180121.jpg');
+}
+
+.curvedpictext{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.curvedpictexttwo{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.curvedpicpara{
+    color: #fff;
+    font-family: 'Mansalva', cursive;
+    font-size: 18px;
+}
+
+@media(min-width: 320px){
+
+    /*Side Images Area*/
+    .placestovisit{
+        font-size: 20px;
+    }
+
+    #rightedtext, #leftedtext{
+        text-align: center;
+    }
+
+    .forafterborder:nth-child(3):after{
+        display: block;
+        position: absolute;
+        content: '';
+        border-bottom: 2px solid lightgray;
+        top: 0%;
+        height: 0px;
+        width: 90%;
+    }
+
+     /* Slider Div */
+     .heightsdiv{
+        height: 50vh;
+    }
+
+    .thisslidertext{
+        font-size: 18px; 
+    }
+}
+
+@media(min-width: 576px){
+
+    /*Side Images Area*/
+    .placestovisit{
+        font-size: 20px;
+    }
+
+    /* Slider Div */
+    .heightsdiv{
+        height:70vh;
+    }
+}
+
+@media(min-width: 768px){
+    
+    /*Side Images Area*/
+    .placestovisit{
+        font-size: 24px;
+    }
+
+    #leftedtext{
+        text-align: left;
+    }
+    
+    #rightedtext{
+        text-align: right;
+    }
+
+    /* Slider Div */
+    .heightsdiv{
+        height:80vh;
+    }
+}
+
+@media(min-width: 992px){
+
+    /*Side Images Area*/
+    .placestovisit{
+        font-size: 32px;
+    }
+
+    .captiontext{
+        font-size: 20px;
+    }
+
+    .forafterborder:nth-child(3):after{
+        display: block;
+        position: absolute;
+        content: '';
+        border-right: 2px solid lightgray;
+        top: 0%;
+        height: 90%;
+        width: 0px;
+    }
+
+    .topbtmpads{
+        padding: 30px 0px 30px 0px;
+    }
+
+    /* Slider Div */
+    .heightsdiv{
+        height:100vh;
+    }
+
+    .thisslidertext{
+        font-size: 35px; 
+    }
+}
+
+@media(min-width: 1200px){
+
+    /*Side Images Area*/
+    .placestovisit{
+        font-size: 40px;
+    }
+
+    .thisslidertext{
+        font-size: 45px; 
+    }
+}
